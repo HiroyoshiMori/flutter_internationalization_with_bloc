@@ -1,8 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../app/route/app_path.dart';
 import '../../utils/app_localizations.dart';
 
 class SecondPage extends StatelessWidget {

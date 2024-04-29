@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import '../../utils/utils.dart';
-import '../../main.dart';
 import '../bloc/app_bloc.dart';
 import '../route/app_router.dart';
 
