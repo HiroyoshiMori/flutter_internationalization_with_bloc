@@ -1,4 +1,8 @@
 {
   "Title": "タイトル",
-  "Message": "これは日本語です。"
+  "Message": "これは日本語です。",
+  "To Second page": "2ページ目へ",
+  "Second Page": "2ページ目",
+  "Second Message": "これは2ページ目のメッセージです。",
+  "Go back": "戻る"
 }

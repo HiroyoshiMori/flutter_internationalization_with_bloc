@@ -1,4 +1,8 @@
 {
   "Title": "Title",
-  "Message": "This is English."
+  "Message": "This is English.",
+  "To Second page": "To second page",
+  "Second Page": "Second Page",
+  "Second Message": "This is message in 2nd page.",
+  "Go back": "Back"
 }

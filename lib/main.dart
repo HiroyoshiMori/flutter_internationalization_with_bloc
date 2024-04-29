@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 
 import './app/app.dart';
+import 'app/route/app_path.dart';
 import 'utils/utils.dart';
 
 void main() async {
@@ -54,7 +56,19 @@ class MyApp extends StatelessWidget {
                   );
                 }
             ),
-
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget> [
+                ElevatedButton(
+                    onPressed: () {
+                      context.pushNamed(AppPath.second.toLabel);
+                    },
+                    child: Text(
+                      AppLocalizations.of(context)!.translate('To Second page')
+                    )
+                )
+              ]
+            )
           ],
         ),
       ),
